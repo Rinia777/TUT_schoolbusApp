@@ -8,6 +8,11 @@ import SwiftUI
 
 struct onePage: View {
     var body: some View {
-        Text("ホーム")
+        Text("ホーム画面変更")
     }
 }
+
+#Preview {
+    onePage()
+}
+
