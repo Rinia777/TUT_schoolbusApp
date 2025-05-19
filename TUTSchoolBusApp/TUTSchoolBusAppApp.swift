@@ -11,6 +11,7 @@ import SwiftUI
 struct TUTSchoolBusAppApp: App {
     var body: some Scene {
         WindowGroup {
+            HeaderView()
             ContentView()
         }
     }
