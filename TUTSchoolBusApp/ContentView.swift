@@ -8,11 +8,30 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var selection = 1
+    
     var body: some View {
-        VStack {
-            
+        TabView(selection: $selection) {
+            onePage()
+                .tabItem {
+                    Image(systemName: "house")
+                    Text("ホーム")
+                }
+                .tag(0)
+            twoPage()
+                .tabItem {
+                    Image(systemName: "tram.fill")
+                    Text("交通情報")
+                }
+                .tag(1)
+            threePage()
+                .tabItem {
+                    Image(systemName: "gearshape")
+                    Text("設定")
+                }
+                .tag(2)
         }
-        .padding()
     }
 }
 
