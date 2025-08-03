@@ -8,7 +8,9 @@ import SwiftUI
 
 struct onePage: View {
     var body: some View {
-        Text("ホー")
+
+        Text("ホーム画面変更")
+
     }
 }
 
