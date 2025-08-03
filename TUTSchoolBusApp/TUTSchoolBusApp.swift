@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct TUTSchoolBusAppApp: App {
+struct TUTSchoolBusApp: App {
     var body: some Scene {
         WindowGroup {
             HeaderView()
