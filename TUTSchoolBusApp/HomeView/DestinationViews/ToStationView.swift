@@ -1,12 +1,12 @@
 //
-//  HomeView.swift
+//  ToStationView.swift
 //  TUTSchoolBusApp
 //
-//  Created by Rin Ichikawa on 2025-05-19.
+//  Created by Rin Ichikawa on 2025-08-03.
 //
 import SwiftUI
 
-struct HomeView: View {
+struct ToStationView: View {
     @State private var currentIndex = 0
     @GestureState private var dragOffset: CGFloat = -20
     @State private var examples = ["1", "2", "3"]
@@ -19,7 +19,7 @@ struct HomeView: View {
                 VStack(spacing:0){
                     HStack {
                         Spacer()
-                        Text("八王子駅発")
+                        Text("八王子みなみ野駅行き")
                             .font(.title)
                             .fontWeight(.bold)
                             .padding(.vertical , 15)
@@ -66,7 +66,7 @@ struct HomeView: View {
                 VStack(spacing:0){
                     HStack {
                         Spacer()
-                        Text("八王子みなみ駅発")
+                        Text("八王子駅行き")
                             .font(.title)
                             .fontWeight(.bold)
                             .padding(.vertical , 15)
@@ -113,7 +113,7 @@ struct HomeView: View {
                 VStack(spacing:0){
                     HStack {
                         Spacer()
-                        Text("学生会館発")
+                        Text("学生会館行き")
                             .font(.title)
                             .fontWeight(.bold)
                             .padding(.vertical , 15)
@@ -197,6 +197,7 @@ struct HomeView: View {
 }
 
 #Preview {
-    HomeView()
+    ToStationView()
 }
+
 
