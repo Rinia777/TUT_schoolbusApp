@@ -26,7 +26,7 @@ struct ContentView: View {
                     Text("交通情報")
                 }
                 .tag(1)
-            threePage()
+            SettingHomeView()
                 .tabItem {
                     Image(systemName: "gearshape")
                     Text("設定")
