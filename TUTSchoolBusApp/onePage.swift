@@ -10,7 +10,7 @@ struct onePage: View {
     var body: some View {
 
         Text("ホーム画面変更")
-        Text("ホーム画面変更")
+        
     }
 }
 
