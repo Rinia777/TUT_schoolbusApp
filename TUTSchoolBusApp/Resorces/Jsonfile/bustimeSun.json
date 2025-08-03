@@ -1,0 +1,11 @@
+{
+    "hachioji": [
+        {"start": "", "station": "", "stop": "","status": "なし"}
+    ],
+    "minamino": [
+        {"start": "", "station": "", "stop": "","status": "なし"}
+    ],
+    "gakuseikaikan": [
+        {"start": "", "station": "", "stop": "","status": "なし"}
+    ]
+}
